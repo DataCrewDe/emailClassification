@@ -13,6 +13,8 @@ pytest = "*"
 pytest-cov = "*"
 flake8 = "*"
 twine = "*"
+pandas = "*"
+scikit-learn = "*"
 
 [requires]
 python_version = "3.9"  # Specify your Python version

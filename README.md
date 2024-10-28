@@ -1,5 +1,7 @@
-# ci-cd-pipeline-setup
-Default repo template with ci-cd integration seup. 
+# Email Classification
+This is an email classification repository, a classic machine learning project to filter spam emails.
+
+
 ## Running the Makefile
  
 Makefile is a way of automating software building procedure and other complex tasks with dependencies along with organizing code compilation. We can use a Makefile to list down all the tasks, for example, installing dependencies, removing build artifacts, runnint unittests, code linting, code coverage, and so on.

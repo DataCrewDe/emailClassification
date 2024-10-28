@@ -10,7 +10,7 @@ def get_version():
 
 
 setup(
-    name="ci-cd-pipeline-setup",
+    name="email-classification",
     version=get_version(),  # Use the version from version.py
     packages=find_packages(where="src"),  # Specify where to find packages
     package_dir={"": "src"},  # Specify package directory
@@ -23,6 +23,8 @@ setup(
             'pytest-cov',
             'flake8',
             'twine',
+            'scikit-learn',
+            'pandas'
         ],
     },
 )
